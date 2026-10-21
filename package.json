@@ -1,0 +1,48 @@
+{
+  "name": "theroofinglist",
+  "version": "0.1.0",
+  "description": "Find checked US roofing, siding and gutter contractors by city, from your terminal. Free, no API key.",
+  "keywords": [
+    "roofing",
+    "roofers",
+    "contractors",
+    "siding",
+    "gutters",
+    "directory",
+    "cli",
+    "api",
+    "the-roofing-list",
+    "home-improvement",
+    "local-business"
+  ],
+  "homepage": "https://theroofinglist.com/mcp/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redpath1/the-roofing-list-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/redpath1/the-roofing-list-cli/issues"
+  },
+  "license": "MIT",
+  "author": "The Roofing List <support@theroofinglist.com> (https://theroofinglist.com)",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "theroofinglist": "bin/theroofinglist.js",
+    "roofers": "bin/theroofinglist.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}
